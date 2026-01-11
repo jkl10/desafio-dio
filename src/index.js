@@ -11,7 +11,7 @@ let personagens = [["geuij", 1233],
 ];
 
 for(let linha = 0; linha < personagens.length; linha++){
-    if(personagens[linha][1] < 1000){
+    if(personagens[linha][1] <= 1000){
         nivel = "Ferro";
     }else if(personagens[linha][1] > 1000 && personagens[linha][1] <= 2000){
         nivel = "Bronze";
